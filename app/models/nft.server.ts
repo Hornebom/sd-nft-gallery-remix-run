@@ -7,7 +7,7 @@ export async function fetchNfts(owner: Address) {
     }
 
     const searchParams = new URLSearchParams({
-      owner: process.env.WALLET_ADDRESS!, // owner
+      owner, // or: your wallet address
       withMetadata: 'true',
       pageSize: '100',
     })
