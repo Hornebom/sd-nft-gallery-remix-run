@@ -1,0 +1,5 @@
+.panel ol {
+  display: grid;
+  gap: var(--base-space);
+  margin-top: var(--base-space);
+}

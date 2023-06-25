@@ -1,0 +1,24 @@
+:root {
+  --base-space: 12px;
+  --space-medium: 20px;
+  --space-large: 50px;
+
+  --base-radius: 6px;
+
+  --font-size-body: 1rem;
+
+  --font-weight-bold: 620;
+  --font-weight-medium: 500;
+  --font-weight-regular: 400;
+
+  --base-dark: #000;
+  --base-light: #fff;
+  --base-yellow: #ffd700;
+
+  --color-dark: var(--base-dark);
+  --color-light: var(--base-light);
+
+  --background-dark: var(--base-dark);
+  --background-light: var(--base-light);
+  --background-yellow: var(--base-yellow);
+}

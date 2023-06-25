@@ -1,0 +1,34 @@
+.gallery-view {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    'gallery wallet'
+    'gallery panel';
+  gap: var(--base-space);
+  padding: var(--base-space);
+}
+
+.gallery-view > * {
+  padding: var(--base-space);
+  border-radius: var(--base-radius);
+}
+
+.gallery-view__gallery {
+  grid-area: gallery;
+  overflow: hidden;
+  pointer-events: none;
+  background-color: var(--background-light);
+}
+
+.gallery-view__wallet {
+  grid-area: wallet;
+  background-color: var(--background-yellow);
+}
+
+.gallery-view__panel {
+  grid-area: panel;
+  overflow-y: auto;
+  background-color: var(--background-light);
+}

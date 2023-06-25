@@ -1,0 +1,34 @@
+.nft {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  min-height: 0;
+  display: grid;
+  place-items: center;
+  pointer-events: auto;
+  transform: scale(0.2) translate3d(var(--translate-x), var(--translate-y), var(--translate-z));
+  transition: transform 0.3s;
+}
+
+.nft.nft--isActive {
+  transform: scale(1) translate3d(0, 0, 10px);
+}
+
+.nft img {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  object-fit: contain;
+  object-position: center;
+  aspect-ratio: var(--aspect-ratio);
+}
+
+.nft button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}

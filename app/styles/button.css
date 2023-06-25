@@ -1,0 +1,24 @@
+.button {
+  --line-height: 1.2em;
+
+  display: flex;
+  gap: 0.6em;
+  width: max-content;
+  padding: 0.55em 1em;
+
+  font-size: var(--font-size-body);
+  line-height: var(--line-height);
+  color: var(--base-text);
+  font-weight: var(--font-weight-medium);
+  text-align: left;
+
+  background-color: var(--background-shade-1);
+  border-radius: var(--base-radius);
+
+  cursor: pointer;
+}
+
+.button:hover {
+  text-decoration: none;
+  background-color: var(--background-hover);
+}

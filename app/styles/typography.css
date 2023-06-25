@@ -1,0 +1,11 @@
+.size-body {
+  font-size: var(--font-size-body);
+}
+
+.weight-bold {
+  font-weight: var(--font-weight-bold);
+}
+
+.weight-medium {
+  font-weight: var(--font-weight-medium);
+}
