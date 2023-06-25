@@ -1,4 +1,4 @@
-# Welcome to Remix!
+# NFT Gallery Remix
 
 - [Remix Docs](https://remix.run/docs)
 - [Netlify Functions](https://www.netlify.com/products/functions/)
